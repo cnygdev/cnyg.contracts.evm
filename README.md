@@ -31,6 +31,14 @@ yarn compile
 
 2.1 部署cnyg合约
 
+【重新部署】
+
+```
+yarn hardhat clean
+```
+
+删除 .openzeppelin/goerli.json 这样不会引用以前部署的老合约了
+
 请替换.env文件中的助记词
 
 请替换 scripts/deploy-erc20cnyg.ts 部署配置项
